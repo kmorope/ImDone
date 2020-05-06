@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "I'm Done",
+  "description":"End your research session when you're done.",
+  "version": "0.1",
+  "browser_action":{
+    "default_icon" : "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "I'm Done"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
